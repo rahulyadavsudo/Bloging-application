@@ -2,9 +2,9 @@ name: Build Docker Image and Push to Registry
 
 
 on:
-  Push:
+  push:
     branches: main
-  Pull Request:
+  pull_request:
     branches: main  
 
 jobs:
