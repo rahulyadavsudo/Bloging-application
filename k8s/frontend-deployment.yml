@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: raaahulyada/bloging-application-frontend:latest
+          image: raaahulyadav/bloging-application-frontend
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
