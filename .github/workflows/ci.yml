@@ -38,5 +38,4 @@ jobs:
          file: ./frontend/Dockerfile
          push: true
          tags: ${{ secrets.DOCKER_USERNAME }}/bloging-application-frontend:latest
-      
-
+  
